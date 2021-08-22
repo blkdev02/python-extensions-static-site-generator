@@ -12,4 +12,4 @@ def load_directory(directory):
 
 def load_bundled():
     directory = Path(__file__).parent / "extensions"
-    
+    load_directory(directory)
