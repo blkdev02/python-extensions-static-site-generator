@@ -12,7 +12,7 @@ def collect_files(source, site_parsers):
                 files.append(path)
 
 @hook.register("generate_menu")
-def generate_menu():
+def generate_menu(html, ext):
     template = '<li><a href="{}{}">{}</a></li>'
 
 
